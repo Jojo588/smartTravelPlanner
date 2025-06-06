@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base{
+body{
+   @apply font-poppins;
+    background-blend-mode: multiply;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    /* color: white; */
+    text-transform: capitalize;
+}
+/* Disable AOS animations for CityMap on max-lg and smaller */
+/* @media (max-width: 1024px) {
+  [data-aos-disable="mobile-lg"] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+} */
+
+}
