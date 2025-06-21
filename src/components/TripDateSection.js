@@ -17,7 +17,7 @@ const TripDateSection = ({ cityName, startDate, endDate, onDelete }) => {
         {isTripDatePage && (
           <div className='flex items-center'>
             <button
-              className="bg-white text-red-500 border border-red-500 px-4 py-2 rounded-md font-medium transition-all duration-300 hover:bg-red-500 hover:text-white"
+              className="bg-white text-red-500 border border-red-500 px-4 py-2 rounded-md font-medium transition-all duration-300 hover:bg-red-500 hover:text-white max-sm:px-2 max-sm:py-1"
               onClick={onDelete}
             >
               Delete

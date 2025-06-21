@@ -84,7 +84,7 @@ function handleSubmit(e) {
      <p className='text-white'>don't have an account? <span onClick={notLoggingin} className='text-blue-500 cursor-pointer duration-300 hover:text-blue-300'>sign up</span></p>
     </div>
     :
-    <SignUp notLoggingin={notLoggingin} setData={setData}/>
+    <SignUp notLoggingin={notLoggingin} setData={setData} setLogin={setLogin}/>
     }
     </>
   )

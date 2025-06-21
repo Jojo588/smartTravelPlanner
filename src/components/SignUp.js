@@ -1,8 +1,6 @@
 import React,{useState} from 'react'
-import {useNavigate } from 'react-router-dom'
 
-const SignUp = ({setData, notLoggingin}) => {
-    const navigate = useNavigate();
+const SignUp = ({setData, notLoggingin,setLogin}) => {
 const [signupEntry, setSignupEntry] = useState({
     userName: "",
     createPassword: "",
@@ -29,7 +27,7 @@ setData( prev=>{
     return [ ...prev,({userName: signupEntry.userName, password: signupEntry.createPassword}) ]
 })
 alert(`hello ${signupEntry.userName}, you have sucessfully signed up`)
-navigate('/')
+setLogin(true);
 }
 
 

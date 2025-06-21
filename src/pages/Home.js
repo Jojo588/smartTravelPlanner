@@ -139,7 +139,7 @@ const Home = ({ tripDates, setIsLoggedIn }) => {
         description2: data.list[8].weather[0].description,
         description3: data.list[16].weather[0].description,
         description4: data.list[24].weather[0].description,
-        description5: data.list[32].weather[0].description,
+        description5: data.list[32].weather[0].description
       };
 
       const newMapLink = `https://www.google.com/maps?q=${cityName}&output=embed`;

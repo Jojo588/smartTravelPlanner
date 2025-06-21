@@ -17,7 +17,7 @@ const CityMap = ({mapLink, isLoading}) => {
   if (!mapLink) {
     return (
       <div className="h-40 flex items-center justify-center max-sm:h-60">
-        <p className="text-xl font-medium ">No map available</p>
+        <p className="text-xl font-medium max-sm:text-center">No map available</p>
       </div>
     );
   }
