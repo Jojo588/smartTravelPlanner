@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/smartTravelPlanner/static/css/main.a9726f40.css",
-    "main.js": "/smartTravelPlanner/static/js/main.696aa2a3.js",
-    "static/js/453.f0e33eac.chunk.js": "/smartTravelPlanner/static/js/453.f0e33eac.chunk.js",
+    "main.css": "/smartTravelPlanner/static/css/main.4a36379b.css",
+    "main.js": "/smartTravelPlanner/static/js/main.74c45ffa.js",
+    "static/js/453.1f3b48ad.chunk.js": "/smartTravelPlanner/static/js/453.1f3b48ad.chunk.js",
+    "static/media/people-working-together-animation-studio.jpg": "/smartTravelPlanner/static/media/people-working-together-animation-studio.3c25ccecd0c8baddfcfd.jpg",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/smartTravelPlanner/static/media/wallpaperflare.com_wallpaper.fd87f866e57c28bc24f8.jpg",
     "static/media/antigua-arquitectura-coliseum-roma-wallpaper-jpg": "/smartTravelPlanner/static/media/antigua-arquitectura-coliseum-roma-wallpaper-447cd4e8ad19f23964a344990931822d.a1cc40232c1d6b9e05a0.jpg",
+    "static/media/Best-Dubai-Images-download.jpg": "/smartTravelPlanner/static/media/Best-Dubai-Images-download.18d5721ee1a8b50e62fd.jpg",
     "static/media/27413513.png": "/smartTravelPlanner/static/media/27413513.491b19d13a38d349735b.png",
     "static/media/scatteredClouds.png": "/smartTravelPlanner/static/media/scatteredClouds.cc5de1cb5a910e79927c.png",
     "static/media/photo-1506973035872-a4ec16b8e8d9.jpg": "/smartTravelPlanner/static/media/photo-1506973035872-a4ec16b8e8d9.555ef91c01c6886881e2.jpg",
@@ -26,12 +28,12 @@
     "static/media/weather_11356919.png": "/smartTravelPlanner/static/media/weather_11356919.ad81d7003fb8ff029990.png",
     "static/media/vector-realistic-tornado-illustration.jpg": "/smartTravelPlanner/static/media/vector-realistic-tornado-illustration.eb5aeadf32671bfb63ee.jpg",
     "index.html": "/smartTravelPlanner/index.html",
-    "main.a9726f40.css.map": "/smartTravelPlanner/static/css/main.a9726f40.css.map",
-    "main.696aa2a3.js.map": "/smartTravelPlanner/static/js/main.696aa2a3.js.map",
-    "453.f0e33eac.chunk.js.map": "/smartTravelPlanner/static/js/453.f0e33eac.chunk.js.map"
+    "main.4a36379b.css.map": "/smartTravelPlanner/static/css/main.4a36379b.css.map",
+    "main.74c45ffa.js.map": "/smartTravelPlanner/static/js/main.74c45ffa.js.map",
+    "453.1f3b48ad.chunk.js.map": "/smartTravelPlanner/static/js/453.1f3b48ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9726f40.css",
-    "static/js/main.696aa2a3.js"
+    "static/css/main.4a36379b.css",
+    "static/js/main.74c45ffa.js"
   ]
 }
