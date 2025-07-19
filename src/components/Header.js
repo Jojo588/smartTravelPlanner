@@ -1,5 +1,3 @@
-import React from 'react';
-import exit from '../images/icons8-log-out-100.png';
 import SearchSection from './SearchSection';
 
 const Header = ({
@@ -9,7 +7,6 @@ const Header = ({
   setDisplaySearch,
   startInactivityTimer,
   stopInactivityTimer,
-  handleLogOut
 }) => {
   function removeSearch() {
     setDisplaySearch(prev=>{
@@ -36,25 +33,12 @@ const Header = ({
 
         <div className='flex justify-between gap-2 items-center'>
           <div
-              onClick={removeSearch}
-              title='search city'
-              alt='search icon'
-              className='sm:hidden cursor-pointer duration-300 text-white bg-blue-500 p-1 pl-3 pr-3 rounded-md capitalize hover:bg-blue-700'
-            >search
-          </div>
-          <div>
-<button
-  className="bg-red-500 p-1 pl-3 pr-3 rounded-md  duration-300 hover:scale-90"
-  onClick={handleLogOut}
->
-  <img
-    src={exit}
-    title="exit"
-    alt="exit icon"
-    className="w-6 h-6 object-contain"
-  />
-</button>
-
+            onClick={removeSearch}
+            title='search city'
+            alt='search icon'
+            className='sm:hidden cursor-pointer duration-300 text-white bg-blue-500 p-1 pl-3 pr-3 rounded-md capitalize hover:bg-blue-700'
+          >
+            search
           </div>
         </div>
       </div>

@@ -136,30 +136,29 @@ const Weather = ({
           <p className='text-xl capitalize  max-md:text-base max-sm:text-xs'>{condition}</p>
         </div>
 
-<div className='w-7/12 flex capitalize justify-around items-center'>
-  {[
-    { day: result[0], weather: weather1, temp: temperature, weatherDescription: description },
-    { day: result[1], weather: weather2, temp: day2Temperature, weatherDescription: description2 },
-    { day: result[2], weather: weather3, temp: day3Temperature, weatherDescription: description3 },
-    { day: result[3], weather: weather4, temp: day4Temperature, weatherDescription:description4 },
-    { day: result[4], weather: weather5, temp: day5Temperature, weatherDescription: description5 },
-  ].map(({ day, weather, temp, weatherDescription}, idx) => (
-    <div key={idx} className='text-center max-sm:text-xs'>
-      <p>{day}</p>
-      <div className='w-14 h-14 max-md:w-12 max-md:h-12 max-sm:w-6 max-sm:h-6 mx-auto'>
-        <img
-          src={weather}
-          alt='forecast icon'
-          className='w-full h-full object-contain'
-          title={weatherDescription}
-        />
-      </div>
-      <p>{temp}&deg;</p>
-    </div>
-  ))}
-</div>
-
-      </div>
+        <div className='w-7/12 flex capitalize justify-around items-center'>
+          {[
+            { day: result[0], weather: weather1, temp: temperature, weatherDescription: description },
+            { day: result[1], weather: weather2, temp: day2Temperature, weatherDescription: description2 },
+            { day: result[2], weather: weather3, temp: day3Temperature, weatherDescription: description3 },
+            { day: result[3], weather: weather4, temp: day4Temperature, weatherDescription:description4 },
+            { day: result[4], weather: weather5, temp: day5Temperature, weatherDescription: description5 },
+          ].map(({ day, weather, temp, weatherDescription}, idx) => (
+            <div key={idx} className='text-center max-sm:text-xs'>
+              <p>{day}</p>
+              <div className='w-14 h-14 max-md:w-12 max-md:h-12 max-sm:w-6 max-sm:h-6 mx-auto'>
+                <img
+                  src={weather}
+                  alt='forecast icon'
+                  className='w-full h-full object-contain'
+                  title={weatherDescription}
+                />
+              </div>
+              <p>{temp}&deg;</p>
+            </div>
+          ))}
+        </div>
+       </div>
     </div>
   );
 };

@@ -2,29 +2,27 @@ import React, { useEffect } from 'react';
 import search from '../images/icons8-search-50.png';
 
 const SearchSection = ({ handleClick, setCityName, cityName, onUserInput }) => {
-  function handleChange(event) {
-    setCityName(event.target.value);
-    if (onUserInput) onUserInput(); // restart inactivity timer
-  }
 
-  useEffect(() => {
-    if (cityName) {
-      localStorage.setItem('storedCityName', JSON.stringify(cityName));
+    function handleChange(event) {
+      setCityName(event.target.value);
+      if (onUserInput) onUserInput(); // restart inactivity timer
     }
-  }, [cityName]);
 
+    useEffect(() => {
+      if (cityName) {
+        localStorage.setItem('storedCityName', JSON.stringify(cityName));
+      }
+    }, [cityName]);
 
-
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    handleClick();
-    }
+    function handleSubmit(e) {
+      e.preventDefault();
+      handleClick();
+      }
 
 
   return (
     <form className='flex gap-1 border pl-1 border-gray-400 rounded-md bg-white' onSubmit={handleSubmit}>
-            <button
+      <button
         type="submit"
         className="duration-300 hover:scale-90 mt-1 "
         title='check weather forecast for city' 

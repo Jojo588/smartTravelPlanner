@@ -11,8 +11,6 @@ const CityMap = ({mapLink, isLoading}) => {
   </div>
     );
   }
-
-
 // check if mapLink is provided
   if (!mapLink) {
     return (
@@ -22,24 +20,22 @@ const CityMap = ({mapLink, isLoading}) => {
     );
   }
 
-
   return (
     <div>
         <h1 className='text-2xl font-bold capitalize mb-2 max-sm:text-lg max-sm:font-extrabold '>
             City map
         </h1>
         <div className='w-full h-40 rounded-md max-lg:h-56 max-sm:h-fit'>
-<iframe
-  width="100%"
-  height="fit-content"
-  loading="lazy"
-  allowFullScreen
-  src={mapLink}
-  referrerPolicy="no-referrer-when-downgrade"
-  title="City Map View"
-  className='rounded-md max-md:h-56 max-lg:h-56 max-sm:h-52'>
-</iframe>
-
+          <iframe
+            width="100%"
+            height="fit-content"
+            loading="lazy"
+            allowFullScreen
+            src={mapLink}
+            referrerPolicy="no-referrer-when-downgrade"
+            title="City Map View"
+            className='rounded-md max-md:h-56 max-lg:h-56 max-sm:h-52'>
+          </iframe>
         </div>
     </div>
   )

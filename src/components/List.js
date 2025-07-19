@@ -4,7 +4,7 @@ const messages = [
   { name: "🗓️ Plan, organize, and manage your trips with ease and clarity." },
   { name: "📍 From weather updates to local hotspots, we’ve got your journey covered." },
   { name: "🔔 Get personalized travel tips and itinerary suggestions instantly." }
-  
+
 ];
 
 export default messages;

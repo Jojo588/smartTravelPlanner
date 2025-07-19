@@ -1,15 +1,37 @@
 {
   "files": {
-    "main.css": "/noteApp/static/css/main.7373cbe3.css",
-    "main.js": "/noteApp/static/js/main.47dab1f0.js",
-    "static/js/453.f0e33eac.chunk.js": "/noteApp/static/js/453.f0e33eac.chunk.js",
-    "index.html": "/noteApp/index.html",
-    "main.7373cbe3.css.map": "/noteApp/static/css/main.7373cbe3.css.map",
-    "main.47dab1f0.js.map": "/noteApp/static/js/main.47dab1f0.js.map",
-    "453.f0e33eac.chunk.js.map": "/noteApp/static/js/453.f0e33eac.chunk.js.map"
+    "main.css": "/smartTravelPlanner/static/css/main.a9726f40.css",
+    "main.js": "/smartTravelPlanner/static/js/main.696aa2a3.js",
+    "static/js/453.f0e33eac.chunk.js": "/smartTravelPlanner/static/js/453.f0e33eac.chunk.js",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/smartTravelPlanner/static/media/wallpaperflare.com_wallpaper.fd87f866e57c28bc24f8.jpg",
+    "static/media/antigua-arquitectura-coliseum-roma-wallpaper-jpg": "/smartTravelPlanner/static/media/antigua-arquitectura-coliseum-roma-wallpaper-447cd4e8ad19f23964a344990931822d.a1cc40232c1d6b9e05a0.jpg",
+    "static/media/27413513.png": "/smartTravelPlanner/static/media/27413513.491b19d13a38d349735b.png",
+    "static/media/scatteredClouds.png": "/smartTravelPlanner/static/media/scatteredClouds.cc5de1cb5a910e79927c.png",
+    "static/media/photo-1506973035872-a4ec16b8e8d9.jpg": "/smartTravelPlanner/static/media/photo-1506973035872-a4ec16b8e8d9.555ef91c01c6886881e2.jpg",
+    "static/media/sheet.png": "/smartTravelPlanner/static/media/sheet.3fd2073726492f50071f.png",
+    "static/media/lightRain.png": "/smartTravelPlanner/static/media/lightRain.9f18a69056975e626db5.png",
+    "static/media/Christ-the-Redeemer.jpg": "/smartTravelPlanner/static/media/Christ-the-Redeemer.900846e6b5deb3c1d5d0.jpg",
+    "static/media/thundrerstormwithheavy.png": "/smartTravelPlanner/static/media/thundrerstormwithheavy.8002256834b473fd1511.png",
+    "static/media/jpg": "/smartTravelPlanner/static/media/dfa2f38369e7cfc93bc96b3da85ecb5c.8c2e3ca314e1d5ece84c.jpg",
+    "static/media/heavy snow.png": "/smartTravelPlanner/static/media/heavy snow.fe48e3ce1f310cbd3363.png",
+    "static/media/kindpng_1263083.png": "/smartTravelPlanner/static/media/kindpng_1263083.b5c34dfbdd529390bea1.png",
+    "static/media/thunderstormwlight.png": "/smartTravelPlanner/static/media/thunderstormwlight.bc4672b59160d357dbfb.png",
+    "static/media/lightsnow.png": "/smartTravelPlanner/static/media/lightsnow.80bde6d84112467df178.png",
+    "static/media/light-rain-night.1024x1024.png": "/smartTravelPlanner/static/media/light-rain-night.1024x1024.98deb9b9336d2edf0a66.png",
+    "static/media/mist.png": "/smartTravelPlanner/static/media/mist.6b6cb60f2968bec2529c.png",
+    "static/media/freezinrain.png": "/smartTravelPlanner/static/media/freezinrain.49cbeac7880d4ebab07e.png",
+    "static/media/shower.png": "/smartTravelPlanner/static/media/shower.6d5267f08e37c9268692.png",
+    "static/media/kindpng_1780516.png": "/smartTravelPlanner/static/media/kindpng_1780516.32298c5120925c18eb72.png",
+    "static/media/weather-overcast.512x351.png": "/smartTravelPlanner/static/media/weather-overcast.512x351.6f2878e4e3b9949f0bac.png",
+    "static/media/weather_11356919.png": "/smartTravelPlanner/static/media/weather_11356919.ad81d7003fb8ff029990.png",
+    "static/media/vector-realistic-tornado-illustration.jpg": "/smartTravelPlanner/static/media/vector-realistic-tornado-illustration.eb5aeadf32671bfb63ee.jpg",
+    "index.html": "/smartTravelPlanner/index.html",
+    "main.a9726f40.css.map": "/smartTravelPlanner/static/css/main.a9726f40.css.map",
+    "main.696aa2a3.js.map": "/smartTravelPlanner/static/js/main.696aa2a3.js.map",
+    "453.f0e33eac.chunk.js.map": "/smartTravelPlanner/static/js/453.f0e33eac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7373cbe3.css",
-    "static/js/main.47dab1f0.js"
+    "static/css/main.a9726f40.css",
+    "static/js/main.696aa2a3.js"
   ]
 }
