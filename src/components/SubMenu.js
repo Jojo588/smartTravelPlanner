@@ -24,9 +24,9 @@ const SubMenu = ({ handleLogOut, submenuOpen, setSubMenuOpen, activeNav }) => {
 
       <SheetContent
         side="right"
-        className="bg-white p-6 space-y-6 text-white md:hidden"
+        className="bg-white p-6 text-gray-800 md:hidden flex flex-col justify-between"
       >
-        <nav className="space-y-6 mt-5">
+        <nav className="space-y-5 mt-4">
           {[
             { to: "/home", label: "Home", icon: <FaHome />, key: "home" },
             {
@@ -37,7 +37,7 @@ const SubMenu = ({ handleLogOut, submenuOpen, setSubMenuOpen, activeNav }) => {
             },
             {
               to: "/plan-trip-page",
-              label: "Start planning",
+              label: "Start Planning",
               icon: <FaPlane />,
               key: "plan-trip-page",
             },
@@ -70,25 +70,27 @@ const SubMenu = ({ handleLogOut, submenuOpen, setSubMenuOpen, activeNav }) => {
               key={key}
               to={to}
               onClick={() => setSubMenuOpen(false)}
-              className={`text-lg transition-colors flex gap-3 ${
+              className={`flex items-center gap-3 text-base px-2 py-2 rounded-md transition-colors duration-200 ${
                 key === activeNav
-                  ? "text-blue-600 font-semibold"
-                  : "text-gray-700 hover:text-blue-600 font-medium"
+                  ? "text-blue-600 font-semibold bg-blue-50"
+                  : "text-gray-700 hover:text-blue-600 hover:bg-gray-100 font-medium"
               }`}
             >
-              {icon}
-              {label}
+              <span className="text-lg">{icon}</span>
+              <span>{label}</span>
             </Link>
           ))}
         </nav>
 
-        <button
-          className="w-fit flex gap-2 justify-center items-center text-red-500 hover:text-red-700 font-medium transition-colors text-lg absolute bottom-3 left-1/4 translate-x-1/2"
-          onClick={handleLogOut}
-        >
-          <LogOut className="w-5 h-5" />
-          Log out
-        </button>
+        <div className="flex justify-center mt-8">
+          <button
+            onClick={handleLogOut}
+            className="flex items-center gap-2 text-red-500 hover:text-red-700 font-medium transition-colors duration-200 text-base"
+          >
+            <LogOut className="w-5 h-5" />
+            <span>Log Out</span>
+          </button>
+        </div>
       </SheetContent>
     </Sheet>
   );
