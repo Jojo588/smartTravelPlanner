@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smartTravelPlanner/static/css/main.ca25e62b.css",
-    "main.js": "/smartTravelPlanner/static/js/main.b5beb79c.js",
+    "main.css": "/smartTravelPlanner/static/css/main.f17baee6.css",
+    "main.js": "/smartTravelPlanner/static/js/main.c8b02555.js",
     "static/js/453.1f3b48ad.chunk.js": "/smartTravelPlanner/static/js/453.1f3b48ad.chunk.js",
     "static/media/people-working-together-animation-studio.jpg": "/smartTravelPlanner/static/media/people-working-together-animation-studio.3c25ccecd0c8baddfcfd.jpg",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/smartTravelPlanner/static/media/wallpaperflare.com_wallpaper.fd87f866e57c28bc24f8.jpg",
@@ -28,12 +28,12 @@
     "static/media/weather_11356919.png": "/smartTravelPlanner/static/media/weather_11356919.ad81d7003fb8ff029990.png",
     "static/media/vector-realistic-tornado-illustration.jpg": "/smartTravelPlanner/static/media/vector-realistic-tornado-illustration.eb5aeadf32671bfb63ee.jpg",
     "index.html": "/smartTravelPlanner/index.html",
-    "main.ca25e62b.css.map": "/smartTravelPlanner/static/css/main.ca25e62b.css.map",
-    "main.b5beb79c.js.map": "/smartTravelPlanner/static/js/main.b5beb79c.js.map",
+    "main.f17baee6.css.map": "/smartTravelPlanner/static/css/main.f17baee6.css.map",
+    "main.c8b02555.js.map": "/smartTravelPlanner/static/js/main.c8b02555.js.map",
     "453.1f3b48ad.chunk.js.map": "/smartTravelPlanner/static/js/453.1f3b48ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca25e62b.css",
-    "static/js/main.b5beb79c.js"
+    "static/css/main.f17baee6.css",
+    "static/js/main.c8b02555.js"
   ]
 }
