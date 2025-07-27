@@ -1,7 +1,8 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { LogOut } from "lucide-react";
 import { Button } from "../components/ui/Button";
-import { Sheet, SheetContent, SheetTrigger } from "../components/ui/Sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "../components/ui/Sheet";
 import {
   FaBars,
   FaHome,
@@ -14,9 +15,22 @@ import {
 } from "react-icons/fa";
 
 const SubMenu = ({ handleLogOut, submenuOpen, setSubMenuOpen, activeNav }) => {
+ useEffect(() => {
+  const handleResize = () => {
+    if (window.innerWidth > 765) {
+      setSubMenuOpen(false);
+    }
+  };
+
+  window.addEventListener("resize", handleResize);
+  handleResize(); // run on mount
+
+  return () => window.removeEventListener("resize", handleResize);
+}, [setSubMenuOpen]);
+
   return (
     <Sheet open={submenuOpen} onOpenChange={setSubMenuOpen}>
-      <SheetTrigger asChild className="duration-300 md:hidden p-1">
+      <SheetTrigger asChild className="duration-300 p-1 md:hidden">
         <Button variant="ghost" size="icon">
           <FaBars className="h-5 w-5" />
         </Button>
@@ -24,9 +38,13 @@ const SubMenu = ({ handleLogOut, submenuOpen, setSubMenuOpen, activeNav }) => {
 
       <SheetContent
         side="right"
-        className="bg-white p-6 text-gray-800 md:hidden flex flex-col justify-between"
+        className="bg-white p-6 text-gray-800 flex flex-col justify-between"
       >
-        <nav className="space-y-5 mt-4">
+        <SheetTitle className="visually-hidden">Main Menu</SheetTitle>
+         <SheetDescription className="visually-hidden">
+           Select a page to visit or manage your account.
+          </SheetDescription>
+        <nav className="space-y-5 mt-4 overflow-y-auto max-h-[calc(100vh-100px)] hide-scrollbar">
           {[
             { to: "/home", label: "Home", icon: <FaHome />, key: "home" },
             {

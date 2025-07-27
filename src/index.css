@@ -10,23 +10,34 @@ body{
     
 }
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 label{
-    /* color: white; */
-    text-transform: capitalize;
-}
-/* Disable AOS animations for CityMap on max-lg and smaller */
-/* @media (max-width: 1024px) {
-  [data-aos-disable="mobile-lg"] {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
-  }
-} */
 
+  text-transform: capitalize;
+}
+
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
