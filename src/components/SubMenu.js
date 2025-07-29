@@ -23,8 +23,7 @@ const SubMenu = ({ handleLogOut, submenuOpen, setSubMenuOpen, activeNav }) => {
   };
 
   window.addEventListener("resize", handleResize);
-  handleResize(); // run on mount
-
+  handleResize();
   return () => window.removeEventListener("resize", handleResize);
 }, [setSubMenuOpen]);
 
